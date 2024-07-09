@@ -1,2 +1,6 @@
-# mlops_demo
-mlops_demo
+# mMLOPS - Demo for Production ready project
+## Prerequisites
+* Anaconda Installation
+* VS Code
+* GIT Bash
+
