@@ -1,4 +1,4 @@
-# mMLOPS - Demo for Production ready project
+# MLOPS - Demo for Production ready project
 ## Prerequisites
 * Anaconda Installation
 * VS Code
