@@ -25,7 +25,7 @@ list_of_files = [
     f"{project_name}/utils/main_utils.py",
 ]
 
-for  fiilepath in list_of_files:
+for  filepath in list_of_files:
     filepath = Path(filepath)
     filedir, filename = os.path.split(filepath)
     if filedir !="":
