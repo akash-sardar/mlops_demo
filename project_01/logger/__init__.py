@@ -4,7 +4,8 @@ import os
 from from_root import from_root # type: ignore
 from datetime import datetime
 
-LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+#LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
+LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y')}.log"
 log_dir = "logs"
 logs_path = os.path.join(from_root(), log_dir, LOG_FILE)
 os.makedirs(log_dir, exist_ok = True)
