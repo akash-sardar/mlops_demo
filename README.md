@@ -11,6 +11,10 @@
 * install requirements: pip install -r requirements.txt
 ## Source Data
 * https://www.kaggle.com/datasets/moro23/easyvisa-dataset
+## Project Workflow
+1. Update the contructor in  "Constants" with CONSTANT Variable values such as DB Name, Model Name etc.
+2. Update "Entities" - creates the path for config entity and artifact entity
+3. Add 'mongo_db_connection' in Configuration
 
 
 
