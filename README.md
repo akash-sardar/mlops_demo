@@ -14,7 +14,8 @@
 ## Project Workflow
 1. Update the contructor in  "Constants" with CONSTANT Variable values such as DB Name, Model Name etc.
 2. Update "Entities" - creates the path for config entity and artifact entity
-3. Add 'mongo_db_connection' in Configuration
-
+3. Add 'mongo_db_connection' in Configuration - this will create a class MongoDBClient which will establish a connection with the database when invoked
+4. Create a data_access folder in project_01 with a constructor and source_data_import.py. This utility will createa class SourceData which will return a dataframe from mongoDB collection
+5. Update the Components - Data Ingestion
 
 
