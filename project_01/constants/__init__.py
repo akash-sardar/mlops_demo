@@ -8,8 +8,8 @@ MONGODB_URL_KEY = os.environ["MONGODB_URL"] # read from .env file
 PIPELINE_NAME: str = "project_01"
 ARTIFACT_DIR: str = "artifacts"
 FILE_NAME: str = "usvisa.csv"
-TRAIN_FILE_NAME: str = "usvisa_train.csv"
-TEST_FILE_NAME: str = "usvisa_test.csv"
+TRAIN_FILE_NAME: str = "train.csv"
+TEST_FILE_NAME: str = "test.csv"
 MODEL_FILE_NAME = "model.pkl"
 
 # Data Ingestion related Constants

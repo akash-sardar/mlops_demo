@@ -13,3 +13,7 @@
 # from project_01.constants import DATABASE_NAME, MONGODB_URL_KEY
 # mongo_db_url = MONGODB_URL_KEY
 # print(mongo_db_url)
+
+from project_01.pipeline.training_pipeline import TrainingPipeline
+obj = TrainingPipeline()
+obj.run_pipeline()
