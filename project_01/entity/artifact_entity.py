@@ -9,3 +9,9 @@ TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 class DataIngestionArtifact:
     training_file_path: str
     testing_file_path: str
+
+@dataclass
+class DataValidationArtifact:
+    validation_status: bool
+    message: str
+    data_validation_drift_report_dir: str
