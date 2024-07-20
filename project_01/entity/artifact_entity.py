@@ -15,3 +15,9 @@ class DataValidationArtifact:
     validation_status: bool
     message: str
     data_validation_drift_report_dir: str
+
+@dataclass
+class DataTransformationArtifact:
+    transformed_object_file_path: str
+    transformed_train_file_path: str
+    transformed_test_file_path: str
