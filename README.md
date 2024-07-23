@@ -26,6 +26,7 @@ Project workflow usually follows the path - for each component - update constant
 * 3d. Update the data_validation component
 * 3e. Update Training Pipeline
 * 4a. Update "Data Transformation" component - will contain any feature engineering required : Constants. Entities, Components, Pipeline
+* 5a. Updated "Model Training Component" - Artifacts will have two artifacts - ModelTrainer artifact and ClassificationMetric Artifact (to evaluate and store training score)
 
 
 
